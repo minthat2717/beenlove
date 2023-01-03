@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .vali{
+            border: 2px solid red;
+            background-color: rgb(223, 204, 204);
+            border-radius: 10px;
+            padding: 3px;
+            
+        }
+
+        .container{
+            width: 500px;
+            background-color: rgb(224, 53, 170);
+            margin: 0  auto;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 10px 10px 10px #c22c9fcc;
+        }
+        .title{
+            border-bottom: 1px solid rgb(35, 32, 32);
+        }
+        input{
+            width: 450px;
+            margin: 10px;
+            padding: 5px;
+            border:1px solid rgb(224, 53, 170);
+            border-radius: 20px;
+            background-color: rgb(111, 29, 128);
+            color: white;
+            
+        }
+        button{
+            padding: 5px;
+            margin: 10px;
+            border-radius: 10px;
+            background-color: rgb(111, 29, 128);
+            color: white;
+            border: none;
+        }
+        .h22{
+            padding-bottom: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">❤ Love Memory ❤</h1>
+        <input class="userDate" type="number" placeholder="Type Day">
+        <input class="userMonth" type="number" placeholder="Type Month">
+        <input class="userYear" type="number" placeholder="Type year">
+        <p class="vali">Plz Choose valid date</p><br>
+        <button onclick="myFunction()">Calculate</button>
+        <h1 class="h22"></h1>
+    </div>
+    
+</body>
+<script src="./js.js"></script>
+</html>
