@@ -58,7 +58,10 @@ function myFunction(){
             result=  y3+'years and ' +m3+ 'months';
         }else if(d3==0 && m3>0 && y3==0){
             result= m3+ 'months';
-        }else{
+        }else if(y3<0){
+            document.querySelector('.vali').style.display='inline';
+        }
+        else{
             result=y3+'years '+m3+'months and '+d3+'days ';
         }
         document.querySelector('.h22').innerHTML=result;
