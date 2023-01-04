@@ -13,7 +13,7 @@ function myFunction(){
     
 
     //validation
-    if (m1==null || m1>=13 || m1<=0 || m1=='' || d1==null || d1>=31 || d1<=0 || d1=='' || y1==null || y1=='' || y1<=0 || y1>y2){
+    if (m1==null || m1>=13 || m1<=0 || m1=='' || d1==null || d1>31 || d1<=0 || d1=='' || y1==null || y1=='' || y1<=0 || y1>y2){
         document.querySelector('.vali').style.display='inline';
         document.querySelector('.h22').innerHTML='';
 
